@@ -1,2 +1,2 @@
 # SiteIMC
-<img src="print do site.png" />
+<img src="Print do site.png" />
