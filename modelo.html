@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="estilo.css">
+        <title>Cálculo de IMC</title>
+    </head>
+    <body>
+        <br>
+        <header>
+            <h1><b>Calcule seu IMC</b></h1>
+        </header>
+        
+        <section>
+
+            <div class="input">
+                <label>Nome:</label>
+                <input placeholder="Cleito Afonso Junior" type="text" id='nome'>
+            </div>
+            <br>
+            <div class="input">
+                <label >Altura:</label>
+                <input placeholder="1.76" type="number" id='altura'>
+            </div>
+            <br>
+            <div class="input">
+                <label>Peso:</label>
+                <input placeholder="92" type="number" id='peso'>
+            </div>
+            <br>
+            <br>
+            <div class="botao">
+                <button id='calcular' ><b>Calcular</b></button>
+            </div>
+            <br>
+            <div class="result" id='resultado'>
+                <br>
+                <br>
+            </div>
+
+        </section>
+
+        <img src="cleito.png">
+
+        <footer>
+            <footer> Atenção! O IMC deve ser interpretado somente por um profissional de saúde. </footer> 
+            <p>&copy; Cotemig </p>
+        </footer>
+        <script src="script.js">
+
+        </script>
+    </body>
+</html>
